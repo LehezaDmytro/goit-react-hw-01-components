@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.status::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+.stusOnline {
+  background-color: green;
+  border-radius: 50%;
+}
+
+.statusOfline {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 500;
+}
